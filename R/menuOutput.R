@@ -63,7 +63,7 @@ menuItemOutput <- function(outputId) {
 }
 
 menuSubItemOutput <- function(outputId) {
-  menuOutput(outputId = outputId, tag = tagList(tags$ul, tags$li))
+  menuOutput(outputId = outputId, tag = tags$ul(tags$li))
 }
 
 
