@@ -62,6 +62,10 @@ menuItemOutput <- function(outputId) {
   menuOutput(outputId = outputId, tag = tags$li)
 }
 
+menuSubItemOutput <- function(outputId) {
+  menuOutput(outputId = outputId, tag = tagList(tags$ul, tags$li))
+}
+
 
 #' Create dynamic menu output (server side)
 #'
